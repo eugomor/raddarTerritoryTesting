@@ -1,2 +1,2 @@
 # raddarTerritoryTesting
-Code and clases that are involved  on Raddar App, TerritoryTesting version 
+Clases with some pieces of code that are involved  on Raddar App, TerritoryTesting version 
