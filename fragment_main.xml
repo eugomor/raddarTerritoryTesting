@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <ImageView
+            android:id="@+id/my_territory_position_testing2"
+
+            android:layout_width="56dp"
+            android:layout_height="56dp"
+
+
+
+            android:layout_alignParentTop="true"
+
+
+            android:layout_marginStart="120dp"
+            android:paddingBottom="6dp"
+            android:src="@drawable/ic_show_territory" />
+
+        <ImageView
+            android:id="@+id/my_territory_position_testing"
+            android:layout_width="56dp"
+            android:layout_height="56dp"
+
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="172dp"
+
+
+
+            android:paddingBottom="6dp"
+
+            android:src="@drawable/ic_show_territory" />
+
+       
+
+        <EditText
+            android:id="@+id/coords_testing_editText"
+            android:layout_width="match_parent"
+            android:layout_height="141dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="54dp"
+
+            android:background="@drawable/my_border"
+            android:ems="10"
+            android:inputType="textMultiLine"
+            android:textColor="@color/white"
+            android:textColorLink="@color/background_screen_grey" />
+
+
+        <EditText
+            android:id="@+id/testReport_editText"
+            android:layout_width="match_parent"
+            android:layout_height="151dp"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/coords_testing_editText"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/my_border"
+            android:ems="10"
+            android:inputType="textMultiLine"
+            android:textColor="@color/white"
+            android:textColorLink="@color/background_screen_grey" />
+
+
+    </RelativeLayout>
+</FrameLayout>
